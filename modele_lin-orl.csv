@@ -1,0 +1,10 @@
+machine;repertoire_base;fichier;taille;port;device
+lin-orl-001;D:\VirtualBox\Machines;system-01.vdi;15000;0;0
+lin-orl-001;D:\VirtualBox\Machines;appl-01.vdi;12000;1;0
+lin-orl-001;D:\VirtualBox\Machines;appl-02.vdi;12000;1;1
+lin-orl-001;D:\VirtualBox\Machines;asm_dbfs-01.vdi;200;1;2
+lin-orl-001;D:\VirtualBox\Machines;asm_data-01.vdi;2000;1;3
+lin-orl-001;D:\VirtualBox\Machines;asm_data-02.vdi;2000;1;4
+lin-orl-001;D:\VirtualBox\Machines;asm_data-03.vdi;2000;1;4
+lin-orl-001;D:\VirtualBox\Machines;asm_reco-01.vdi;2000;2;5
+lin-orl-001;D:\VirtualBox\Machines;asm_reco-02.vdi;2000;2;6
