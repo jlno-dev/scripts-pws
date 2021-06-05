@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<machine>
+    <nom>"lin-orl-002"</nom>
+    <os_type>"Oracle_64"</os_type>
+    <memoire_mo>4096</memoire_mo>
+    <vram>128</vram>
+    <disque id="0">
+        <taille_mo>12000</taille_mo>
+        <nom>  </nom>
+    </disque> 
+
+</machine>

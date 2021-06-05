@@ -1,0 +1,5 @@
+VBoxManage createvm --name [MACHINE NAME] --ostype [Os Type, ex: "Debian_64"] --register --basefolder `pwd` 
+
+VBoxManage createvm --name lin-orl-002 --ostype Oracle_64 --register --basefolder H:\projets\VBox\Vms
+
+Start-Process -NoNewWindow -FilePath "C:\Program Files\IIS\Microsoft Web Deploy\msdeploy.exe" -ArgumentList "-verb:sync","-source:dbfullsql=`"Data Source=mysource;Integrated Security=false;User ID=sa;Pwd=sapass!;Database=mydb;`"","-dest:dbfullsql=`"Data Source=.\mydestsource;Integrated Security=false;User ID=sa;Pwd=sapass!;Database=mydb;`"","computername=10.10.10.10","username=administrator","password=adminpass"

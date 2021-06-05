@@ -1,0 +1,12 @@
+Bonus sur l’autorisation de scripts PS
+Remettre en place la restriction
+
+Set-ExecutionPolicy RemoteSigned
+
+Autoriser pour l’utilisateur Windows courant
+
+Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"
+
+Remettre en place la restriction pour l’utilisateur courant
+
+Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "RemoteSigned"
