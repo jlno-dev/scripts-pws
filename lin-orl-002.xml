@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <machine>
-    <nom>"lin-orl-002"</nom>
+    <nom>lin-orl-002</nom>
     <os_type>"Oracle_64"</os_type>
     <memoire_mo>4096</memoire_mo>
     <vram>128</vram>
-    <disque id="0">
+    <repertoire_racine>D:\VirtualBox\Machines</repertoire_racine>
+    <disque>
+        <nom>system_001.vdi</nom>
+        <fixe>false</fixe>
         <taille_mo>12000</taille_mo>
-        <nom>  </nom>
+        <num_port>0</num_port>
+        <indice>0</indice>
     </disque> 
-
+    <disque>
+        <nom>appl_001.vdi</nom>
+        <fixe>false</fixe>
+        <taille_mo>15000</taille_mo>
+        <num_port>1</num_port>
+        <indice>0</indice>
+    </disque> 
+    <disque>
+        <nom>appl_002.vdi</nom>
+        <fixe>false</fixe>
+        <taille_mo>15000</taille_mo>
+        <num_port>1</num_port>
+        <indice>1</indice>
+    </disque> 
+    <disque>
+        <nom>asm_dbfs_001.vdi</nom>
+        <fixe>true</fixe>
+        <taille_mo>200</taille_mo>
+        <num_port>2</num_port>
+        <indice>0</indice>
+    </disque> 
+    <disque>
+        <nom>asm_reco_001.vdi</nom>
+        <fixe>true</fixe>
+        <taille_mo>2000</taille_mo>
+        <num_port>2</num_port>
+        <indice>1</indice>
+    </disque> 
+    <disque>
+        <nom>asm_data_001.vdi</nom>
+        <fixe>true</fixe>
+        <taille_mo>2000</taille_mo>
+        <num_port>2</num_port>
+        <indice>3</indice>
+    </disque> 
+    <disque>
+        <nom>asm_data_002.vdi</nom>
+        <fixe>true</fixe>
+        <taille_mo>2000</taille_mo>
+        <num_port>2</num_port>
+        <indice>4</indice>
+    </disque> 
 </machine>
