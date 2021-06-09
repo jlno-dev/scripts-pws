@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <machine>
     <nom>lin-orl-002</nom>
-    <os_type>"Oracle_64"</os_type>
+    <os_type>Oracle_64</os_type>
     <memoire_mo>4096</memoire_mo>
     <vram>128</vram>
     <repertoire_racine>D:\VirtualBox\Machines</repertoire_racine>
